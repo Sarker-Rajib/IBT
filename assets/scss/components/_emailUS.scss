@@ -32,6 +32,10 @@
             font-family: 'HelveticaNeuebold';
             font-size: 40px;
             color: #fff;
+
+            @media(max-width: 767px) {
+               font-size: 28px;
+            }
          }
       }
 
