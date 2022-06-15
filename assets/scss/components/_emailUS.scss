@@ -1,9 +1,9 @@
 .email-us{
    padding-bottom: 50px;
+   
    .container{
       @media(max-width: 991px) {
          padding: 0 !important;
-         width: 100%;
       }
    }
 
@@ -11,26 +11,26 @@
       background: url(../images/contact-orm-bg.png) no-repeat left bottom/cover;
       
       @media(max-width: 991px) {
-         padding-bottom: 360px;
+         padding-bottom: 405px;
          background: url(../images/bg-small.png) no-repeat left bottom/cover;
       }
 
       @media(max-width: 767px) {
-         padding-bottom: 260px;
+         padding-bottom: 300px;
       }
 
       @media(max-width: 575px) {
-         padding-bottom: 270px;
+         padding-bottom: 320px;
       }
 
       @media(max-width: 480px) {
-         padding-bottom: 215px;
+         padding-bottom: 260px;
       }
 
       .section-header{
          h2{
             font-family: 'HelveticaNeuebold';
-            font-size: 40px;
+            font-size: 50px;
             color: #fff;
 
             @media(max-width: 767px) {
@@ -40,16 +40,17 @@
       }
 
       .section-content{
-         .sb-head{
-            color: #fff;
-            flex: 20px;
+         .sb-head{   
+            font-family: 'HelveticaNeueMedium';
+            font-size: 25px;
+            color: #fff;            
          }
 
          form{
             label{
                font-family: Helvetica, sans-serif;
                color: #747474;
-               font-size: 15px;
+               font-size: 16px;
             }
 
             .form-floating{

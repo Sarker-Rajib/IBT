@@ -21,7 +21,7 @@
    }
 
    .section-content{
-      padding-top: 70px;
+      padding-top: 60px;
 
       .item{    
          text-align: center;     
@@ -41,7 +41,7 @@
          h4{         
             font-family: 'HelveticaNeuebold';
             color: $color-text-primary;
-            font-size: 40px;
+            font-size: 45px;
             padding-bottom: 20px;
 
             @media(max-width: 991px) {
@@ -51,7 +51,7 @@
 
          p{
             font-family: 'HelveticaNeuelight';
-            font-size: 18px;
+            font-size: 20px;
             color: #333333;
             
             @media(min-width: 1400px) {
