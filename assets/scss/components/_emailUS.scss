@@ -34,7 +34,7 @@
             color: #fff;
 
             @media(max-width: 767px) {
-               font-size: 28px;
+               font-size: 25px;
             }
          }
       }
@@ -43,7 +43,11 @@
          .sb-head{   
             font-family: 'HelveticaNeueMedium';
             font-size: 25px;
-            color: #fff;            
+            color: #fff;   
+            
+            @media(max-width: 991px) {
+               font-size: 18px;
+            }
          }
 
          form{
