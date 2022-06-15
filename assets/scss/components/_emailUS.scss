@@ -1,0 +1,59 @@
+.email-us{
+   padding-bottom: 50px;
+   .container{
+      @media(max-width: 991px) {
+         padding: 0 !important;
+         width: 100%;
+      }
+   }
+
+   .section-wrapper{
+      background: url(../images/contact-orm-bg.png) no-repeat left bottom/cover;
+      
+      @media(max-width: 991px) {
+         padding-bottom: 360px;
+         background: url(../images/bg-small.png) no-repeat left bottom/cover;
+      }
+
+      @media(max-width: 767px) {
+         padding-bottom: 260px;
+      }
+
+      @media(max-width: 575px) {
+         padding-bottom: 270px;
+      }
+
+      @media(max-width: 480px) {
+         padding-bottom: 215px;
+      }
+
+      .section-header{
+         h2{
+            font-family: 'HelveticaNeuebold';
+            font-size: 40px;
+            color: #fff;
+         }
+      }
+
+      .section-content{
+         .sb-head{
+            color: #fff;
+            flex: 20px;
+         }
+
+         form{
+            label{
+               font-family: Helvetica, sans-serif;
+               color: #747474;
+               font-size: 15px;
+            }
+
+            .form-floating{
+               .form-control{
+                  border-radius: 0;
+               }
+            }
+         }
+      }
+   }
+}

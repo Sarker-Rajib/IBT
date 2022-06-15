@@ -1,0 +1,67 @@
+.IBT-sponsore-company{
+   padding: 60px 0;
+   @media(max-width: 767px) {
+      padding: 30px 0 60px;
+   }
+
+   .section-header{
+      h2{
+         font-family: 'HelveticaNeuebold';
+         font-size: 40px;
+         text-align: center;
+
+         @media(min-width: 1366px) {
+            white-space: pre-line;
+         }
+
+         @media(max-width: 767px) {
+            font-size: 22px;
+         }
+      }
+   }
+
+   .section-content{
+      padding-top: 70px;
+
+      .item{    
+         text-align: center;     
+         @media(min-width: 992px) {
+            &:not(:last-child){
+               border-right: 1px solid #ccc;
+            }
+         }
+         @media(max-width: 991px) {
+            &:nth-child(odd){
+               border-right: 1px solid #ccc;
+            }
+         }
+      }
+
+      .ads-card{
+         h4{         
+            font-family: 'HelveticaNeuebold';
+            color: $color-text-primary;
+            font-size: 40px;
+            padding-bottom: 20px;
+
+            @media(max-width: 991px) {
+               font-size: 30px;
+            }
+         }
+
+         p{
+            font-family: 'HelveticaNeuelight';
+            font-size: 18px;
+            color: #333333;
+            
+            @media(min-width: 1400px) {
+               white-space: pre-line;
+            }
+
+            @media(max-width: 991px) {
+               font-size: 15px;
+            }
+         }
+      }
+   }
+}

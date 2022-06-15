@@ -1,0 +1,53 @@
+.what-you-get{
+   padding: 60px 0;
+   .section-header{
+      h2{
+         font-family: 'HelveticaNeuebold';
+         font-size: 30px;
+         text-align: center;
+      }
+   }
+
+   .section-content{
+      padding-top: 50px;
+
+      .service-cards{
+         .item{
+            @media(min-width: 992px) {
+               &:not(:last-child){
+                  border-right: 1px solid #ccc;
+               }
+            }
+            @media(max-width: 991px) {
+               &:nth-child(odd){
+                  border-right: 1px solid #ccc;
+               }
+            }
+
+            .s-card{
+               text-align: center;
+
+               img{
+                  width: 100%;
+                  max-width: 70px;
+               }
+
+               p{
+                  padding-top: 35px;
+                  font-family: 'HelveticaNeuelight';
+                  font-size: 18px;
+                  color: #333333;
+                  
+                  @media(min-width: 1400px) {
+                     white-space: pre-line;
+                  }
+   
+                  @media(max-width: 991px) {
+                     font-size: 15px;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
