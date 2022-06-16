@@ -18,7 +18,7 @@ function counterUp(){
 }
 var stop = setInterval(function(){
     counterUp()
-},8)
+},16)
 
 function counterUpTwo(){
     countertwo.innerHTML = countTwo
@@ -30,7 +30,7 @@ function counterUpTwo(){
 }
 var thamo = setInterval(function(){
     counterUpTwo()
-},8)
+},16)
 
 function counterUpThree(){
     counterthree.innerHTML = countThree
@@ -41,7 +41,7 @@ function counterUpThree(){
 }
 var tham = setInterval(function(){
     counterUpThree()
-},60)
+},120)
 
 
 function counterUpFour(){
@@ -54,4 +54,4 @@ function counterUpFour(){
 
 var thams = setInterval(function(){
     counterUpFour()
-},50)
+},100)
